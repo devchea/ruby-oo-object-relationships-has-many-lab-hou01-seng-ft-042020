@@ -16,7 +16,7 @@ class Post
   end
 
   def author_name #knows the name of its author
-    binding.pry
+    # binding.pry
     if author
       author.name
     else
